@@ -39,7 +39,20 @@
                                 @enderror
                             </div>
                         </div>
-
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="abilities[]" value="view"
+                                id="abilities[view]">
+                            <label class="form-check-label" for="abilities[view]">
+                                View repositories
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="create" name="abilities[]"
+                                id="abilities[create]">
+                            <label class="form-check-label" for="abilities[create]">
+                                Create repositories
+                            </label>
+                        </div>
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">

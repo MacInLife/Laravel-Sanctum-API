@@ -24,5 +24,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => ['auth:sanctum']], function (){
     Route::post('/tokens', 'ApiTokenController@store')->name('token.store');
-    Route::get('/repository', 'RepositoryController@index');
+    //Route::get('/repository', 'RepositoryController@index');
+    //Route::post('/repository', 'RepositoryController@store');
 });
